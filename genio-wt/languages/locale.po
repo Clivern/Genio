@@ -1,0 +1,950 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Genio\n"
+"POT-Creation-Date: 2015-03-02 21:31+0200\n"
+"PO-Revision-Date: 2015-03-02 21:31+0200\n"
+"Last-Translator: Clivern <support@clivern.com>\n"
+"Language-Team: Clivern <Support@clivern.com>\n"
+"Language: us_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.8\n"
+"X-Poedit-KeywordsList: _;_e;esc_attr_e;esc_attr__;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: ../inc\n"
+
+#: ../404.php:17
+msgid "Oops! This page is lost!"
+msgstr ""
+
+#: ../404.php:22
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: ../archive.php:27 ../content-single.php:23 ../index.php:30
+msgid "Home"
+msgstr ""
+
+#: ../archive.php:29 ../content-single.php:26 ../content-single.php:28
+#: ../index.php:32
+msgid "Blog"
+msgstr ""
+
+#: ../comments.php:23
+msgid "Comments"
+msgstr ""
+
+#: ../comments.php:26
+#, php-format
+msgid "%1$s Older Comments"
+msgstr ""
+
+#: ../comments.php:27
+#, php-format
+msgid "Newer Comments %1$s"
+msgstr ""
+
+#: ../comments.php:35
+#, php-format
+msgid "%1$sReply"
+msgstr ""
+
+#: ../comments.php:46
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:59 ../sections/section-contact.php:75
+msgid "Your Name"
+msgstr ""
+
+#: ../comments.php:60 ../sections/section-contact.php:81
+#: ../sections/section-contact.php:184
+msgid "Your Email"
+msgstr ""
+
+#: ../comments.php:61
+msgid "Your Website"
+msgstr ""
+
+#: ../comments.php:63
+msgid "Your Comment"
+msgstr ""
+
+#: ../content-none.php:14
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-none.php:16
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../content-none.php:19
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../content-page.php:28 ../content-single.php:61 ../content.php:33
+msgid "Pages:"
+msgstr ""
+
+#: ../content-single.php:66
+msgid " "
+msgstr ""
+
+#: ../content-single.php:69
+#, php-format
+msgid "Tags: %1$s"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:161 ../inc/bundle-plugin.php:58
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:162 ../inc/bundle-plugin.php:59
+msgid "Install Plugins"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:163 ../inc/bundle-plugin.php:60
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:175 ../inc/bundle-plugin.php:72
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:177
+#: ../core/class-tgm-plugin-activation.php:1939 ../inc/bundle-plugin.php:73
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:178
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:531
+#: ../core/class-tgm-plugin-activation.php:2156
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:1166
+msgid "Private Repository"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:1169
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:1174
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:1177
+msgid "Required"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:1177
+msgid "Recommended"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:1180
+msgid "Not Installed"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:1182
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:1287
+#: ../core/class-tgm-plugin-activation.php:1395
+msgid "Install"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:1309
+#: ../core/class-tgm-plugin-activation.php:1396
+msgid "Activate"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:1358
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:1374
+msgid "Plugin"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:1375
+msgid "Source"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:1376
+msgid "Type"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:1377
+msgid "Status"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:1922
+msgid "Install package not available."
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:1923
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:1924
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:1925
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:1926
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:1927
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:1938
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:2052
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:2053
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:2053
+#: ../core/class-tgm-plugin-activation.php:2062
+msgid "Show Details"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:2053
+#: ../core/class-tgm-plugin-activation.php:2062
+msgid "Hide Details"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:2054
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:2055
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:2059
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:2060
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:2061
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:2062
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:2063
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../core/class-tgm-plugin-activation.php:2064
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../footer.php:30
+#, php-format
+msgid "Copyright %1$s %2$s %3$s. All Rights Reserved"
+msgstr ""
+
+#: ../functions.php:64
+msgid "Front Page Menu (No Dropdown)"
+msgstr ""
+
+#: ../functions.php:65
+msgid "Other Pages Menu (No Dropdown)"
+msgstr ""
+
+#: ../functions.php:102
+msgid "Sidebar"
+msgstr ""
+
+#: ../functions.php:104
+msgid "This sidebar will apear in your blog page."
+msgstr ""
+
+#: ../inc/back-compat.php:36 ../inc/back-compat.php:47
+#: ../inc/back-compat.php:61
+#, php-format
+msgid ""
+"Genio requires at least WordPress version 3.9. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+
+#: ../inc/bundle-plugin.php:54
+msgid "I really, really need you to install these plugins, okay?"
+msgstr ""
+
+#: ../inc/bundle-plugin.php:61
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../inc/bundle-plugin.php:74
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../inc/contact.php:82 ../inc/contact.php:193
+msgid "Bad request."
+msgstr ""
+
+#: ../inc/contact.php:92 ../inc/contact.php:206
+msgid "Please provide your name."
+msgstr ""
+
+#: ../inc/contact.php:97 ../inc/contact.php:211
+msgid "Provided name is too short."
+msgstr ""
+
+#: ../inc/contact.php:102 ../inc/contact.php:216
+msgid "Please provide your email."
+msgstr ""
+
+#: ../inc/contact.php:107
+msgid "Please provide a subject."
+msgstr ""
+
+#: ../inc/contact.php:112
+msgid "Please provide your message."
+msgstr ""
+
+#: ../inc/contact.php:117
+msgid "Provided message is too short."
+msgstr ""
+
+#: ../inc/contact.php:138 ../inc/contact.php:147 ../inc/contact.php:300
+#: ../inc/contact.php:309
+msgid "Error, please, try again later"
+msgstr ""
+
+#: ../inc/contact.php:144 ../inc/contact.php:306
+msgid "Thanks, We will respond as soon as possible."
+msgstr ""
+
+#: ../inc/contact.php:221
+msgid "Please provide a timeframe."
+msgstr ""
+
+#: ../inc/contact.php:226
+msgid "Please provide experience level."
+msgstr ""
+
+#: ../inc/contact.php:231
+msgid "Please provide process."
+msgstr ""
+
+#: ../inc/contact.php:236
+msgid "Please provide a prefered package."
+msgstr ""
+
+#: ../inc/contact.php:241
+msgid "Please provide project requirements."
+msgstr ""
+
+#: ../inc/contact.php:246
+msgid "Provided project requirements is too short."
+msgstr ""
+
+#: ../inc/contact.php:251 ../sections/section-contact.php:90
+msgid "As soon as possible (rush job)"
+msgstr ""
+
+#: ../inc/contact.php:252 ../sections/section-contact.php:91
+msgid "Within 1 week (rush job)"
+msgstr ""
+
+#: ../inc/contact.php:253 ../sections/section-contact.php:92
+msgid "Within 2 weeks"
+msgstr ""
+
+#: ../inc/contact.php:254 ../sections/section-contact.php:93
+msgid "Within a month"
+msgstr ""
+
+#: ../inc/contact.php:255 ../sections/section-contact.php:94
+msgid "Sometime in the next few months"
+msgstr ""
+
+#: ../inc/contact.php:256 ../inc/contact.php:263
+msgid "I'm not really sure"
+msgstr ""
+
+#: ../inc/contact.php:259
+msgid "Not much, I'll need your help"
+msgstr ""
+
+#: ../inc/contact.php:260 ../sections/section-contact.php:105
+msgid "Average - I surf the web"
+msgstr ""
+
+#: ../inc/contact.php:261 ../sections/section-contact.php:106
+msgid "I can design websites"
+msgstr ""
+
+#: ../inc/contact.php:262 ../sections/section-contact.php:107
+msgid "I can hand code HTML"
+msgstr ""
+
+#: ../inc/contact.php:266
+msgid "I'm just starting to explore options"
+msgstr ""
+
+#: ../inc/contact.php:267
+msgid "I'm sending out requests to a few vendors"
+msgstr ""
+
+#: ../inc/contact.php:268 ../sections/section-contact.php:119
+msgid "I want to use you, I just need some more details"
+msgstr ""
+
+#: ../inc/contact.php:269
+msgid "I'm ready to get started, where do I send payment?"
+msgstr ""
+
+#: ../inc/contact.php:272 ../sections/section-contact.php:129
+msgid "Designer"
+msgstr ""
+
+#: ../inc/contact.php:273 ../sections/section-contact.php:130
+msgid "Developer"
+msgstr ""
+
+#: ../inc/contact.php:274 ../sections/section-contact.php:131
+msgid "Speaker"
+msgstr ""
+
+#: ../inc/customizer.php:18
+msgid "Default"
+msgstr ""
+
+#: ../inc/customizer.php:104 ../inc/customizer.php:136
+msgid "Site Logo"
+msgstr ""
+
+#: ../inc/customizer.php:117
+msgid "Site Favicon"
+msgstr ""
+
+#: ../inc/customizer.php:131
+msgid "Display Logo as"
+msgstr ""
+
+#: ../inc/customizer.php:135
+msgid "Site Title"
+msgstr ""
+
+#: ../inc/customizer.php:137 ../sections/section-contact.php:43
+#: ../sections/section-nav.php:27
+msgid "Hire Me"
+msgstr ""
+
+#: ../inc/customizer.php:145
+msgid "Styles"
+msgstr ""
+
+#: ../inc/customizer.php:157
+msgid "Home Template"
+msgstr ""
+
+#: ../inc/customizer.php:160
+msgid ""
+"Select one of the templates that you previously created in home builder page."
+msgstr ""
+
+#: ../inc/customizer.php:172
+msgid "Skin"
+msgstr ""
+
+#: ../inc/customizer.php:176
+msgid "Yellow"
+msgstr ""
+
+#: ../inc/customizer.php:177
+msgid "Green"
+msgstr ""
+
+#: ../inc/customizer.php:178
+msgid "Purple"
+msgstr ""
+
+#: ../inc/customizer.php:179
+msgid "Mint"
+msgstr ""
+
+#: ../inc/customizer.php:180
+msgid "Blue"
+msgstr ""
+
+#: ../inc/customizer.php:181
+msgid "Orange"
+msgstr ""
+
+#: ../inc/customizer.php:192
+msgid "Blog Page Custom Header"
+msgstr ""
+
+#: ../inc/customizer.php:194
+msgid "Select blog header background image. recommended size (1920 x 1080)."
+msgstr ""
+
+#: ../inc/customizer.php:205
+msgid "404 Page Custom Header"
+msgstr ""
+
+#: ../inc/customizer.php:207
+msgid "Select 404 header background image. recommended size (1920 x 1080)."
+msgstr ""
+
+#: ../inc/customizer.php:218
+msgid "Archive Page Custom Header"
+msgstr ""
+
+#: ../inc/customizer.php:220
+msgid "Select archive header background image. recommended size (1920 x 1080)."
+msgstr ""
+
+#: ../inc/customizer.php:231
+msgid "Search Page Custom Header"
+msgstr ""
+
+#: ../inc/customizer.php:233
+msgid "Select search header background image. recommended size (1920 x 1080)."
+msgstr ""
+
+#: ../inc/customizer.php:244
+msgid "Post Page Custom Header"
+msgstr ""
+
+#: ../inc/customizer.php:246
+msgid "Select post header background image. recommended size (1920 x 1080)."
+msgstr ""
+
+#: ../inc/customizer.php:258
+msgid "Page Custom Header"
+msgstr ""
+
+#: ../inc/customizer.php:260
+msgid "Select page header background image. recommended size (1920 x 1080)."
+msgstr ""
+
+#: ../inc/customizer.php:267
+msgid "Fonts"
+msgstr ""
+
+#: ../inc/customizer.php:278
+msgid "Headings Font"
+msgstr ""
+
+#: ../inc/customizer.php:290
+msgid "Main Font"
+msgstr ""
+
+#: ../inc/customizer.php:302
+msgid "Serif Font"
+msgstr ""
+
+#: ../inc/customizer.php:310
+msgid "Header"
+msgstr ""
+
+#: ../inc/customizer.php:321
+msgid "Custom Styles"
+msgstr ""
+
+#: ../inc/customizer.php:329
+msgid "Footer"
+msgstr ""
+
+#: ../inc/customizer.php:340
+msgid "Custom Scripts"
+msgstr ""
+
+#: ../inc/customizer.php:352
+msgid "Copyright Info"
+msgstr ""
+
+#: ../inc/customizer.php:360
+msgid "Social Links"
+msgstr ""
+
+#: ../inc/customizer.php:371
+msgid "Facebook"
+msgstr ""
+
+#: ../inc/customizer.php:384
+msgid "Twitter"
+msgstr ""
+
+#: ../inc/customizer.php:397
+msgid "Google+"
+msgstr ""
+
+#: ../inc/customizer.php:410
+msgid "Behance"
+msgstr ""
+
+#: ../inc/customizer.php:423
+msgid "Dribbble"
+msgstr ""
+
+#: ../inc/customizer.php:436
+msgid "YouTube"
+msgstr ""
+
+#: ../inc/customizer.php:449
+msgid "Flickr"
+msgstr ""
+
+#: ../inc/customizer.php:462
+msgid "Instagram"
+msgstr ""
+
+#: ../inc/customizer.php:475
+msgid "Github"
+msgstr ""
+
+#: ../inc/customizer.php:488
+msgid "LinkedIn"
+msgstr ""
+
+#: ../inc/extras.php:35
+msgid "Read More"
+msgstr ""
+
+#: ../inc/extras.php:68
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../inc/extras.php:123
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../inc/extras.php:127
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../inc/extras.php:130
+msgid "Edit"
+msgstr ""
+
+#: ../inc/extras.php:143
+msgid "Pingback:"
+msgstr ""
+
+#: ../inc/extras.php:143
+msgid "(Edit)"
+msgstr ""
+
+#: ../inc/template-tags.php:35
+msgid ", "
+msgstr ""
+
+#: ../inc/template-tags.php:45
+msgid "0 Comment"
+msgstr ""
+
+#: ../inc/template-tags.php:45
+msgid "1 Comment"
+msgstr ""
+
+#: ../inc/template-tags.php:45
+msgid "% Comments"
+msgstr ""
+
+#: ../inc/template-tags.php:67
+msgid "Posts navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:70
+#, php-format
+msgid "%1$s Older posts"
+msgstr ""
+
+#: ../inc/template-tags.php:73
+#, php-format
+msgid "Newer posts %1$s"
+msgstr ""
+
+#: ../inc/template-tags.php:100
+msgid "Post navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:128
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:130
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:132
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:134
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:136
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:138
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: ../inc/template-tags.php:160
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: ../inc/template-tags.php:164
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: ../inc/template-tags.php:166
+msgid "Archives"
+msgstr ""
+
+#: ../project.php:29
+msgid "Project Info"
+msgstr ""
+
+#: ../project.php:34
+msgid "Company"
+msgstr ""
+
+#: ../project.php:39
+msgid "Date"
+msgstr ""
+
+#: ../project.php:44
+msgid "Role"
+msgstr ""
+
+#: ../search.php:32
+#, php-format
+msgid "Search Results for: %1$s"
+msgstr ""
+
+#: ../searchform.php:12
+msgid "Type and hit enter to search"
+msgstr ""
+
+#: ../sections/section-contact.php:46
+msgid "Message"
+msgstr ""
+
+#: ../sections/section-contact.php:87
+msgid "Timeframe"
+msgstr ""
+
+#: ../sections/section-contact.php:89 ../sections/section-contact.php:128
+msgid "Select Option"
+msgstr ""
+
+#: ../sections/section-contact.php:95 ../sections/section-contact.php:108
+msgid "I am not really sure"
+msgstr ""
+
+#: ../sections/section-contact.php:101
+msgid "Your Web Experience Level"
+msgstr ""
+
+#: ../sections/section-contact.php:103 ../sections/section-contact.php:116
+msgid "select option"
+msgstr ""
+
+#: ../sections/section-contact.php:104
+msgid "Not much, I will need your help"
+msgstr ""
+
+#: ../sections/section-contact.php:114
+msgid "Certainty About Makig Process"
+msgstr ""
+
+#: ../sections/section-contact.php:117
+msgid "I am just starting to explore options"
+msgstr ""
+
+#: ../sections/section-contact.php:118
+msgid "I am sending out requests to a few vendors"
+msgstr ""
+
+#: ../sections/section-contact.php:120
+msgid "I am ready to get started, where do I send payment?"
+msgstr ""
+
+#: ../sections/section-contact.php:126
+msgid "Your Prefered Package"
+msgstr ""
+
+#: ../sections/section-contact.php:137
+msgid "Describe Your Project And Requirements"
+msgstr ""
+
+#: ../sections/section-contact.php:149
+msgid "Submit Quote"
+msgstr ""
+
+#: ../sections/section-contact.php:163
+msgid "Close"
+msgstr ""
+
+#: ../sections/section-contact.php:178
+msgid "Your name"
+msgstr ""
+
+#: ../sections/section-contact.php:190
+msgid "Message Subject"
+msgstr ""
+
+#: ../sections/section-contact.php:195
+msgid "Your Message"
+msgstr ""
+
+#: ../sections/section-contact.php:207
+msgid "Submit message"
+msgstr ""
+
+#: ../sections/section-home.php:127
+msgid "Welcome,"
+msgstr ""
+
+#: ../sections/section-home.php:163
+msgid "See my work"
+msgstr ""
+
+#: ../sections/section-home.php:218
+msgid "Scroll"
+msgstr ""
+
+#: ../sections/section-nav.php:31
+msgid "Toggle navigation"
+msgstr ""
+
+#: ../sections/section-portfolio.php:46
+msgid "All"
+msgstr ""
+
+#: ../sections/section-pricing.php:60 ../sections/section-pricing.php:101
+#: ../sections/section-pricing.php:142
+msgid "Per"
+msgstr ""
+
+#: ../sections/section-profile.php:49
+msgid "Download Resume"
+msgstr ""
+
+#: ../sections/section-profile.php:64
+msgid "Name"
+msgstr ""
+
+#: ../sections/section-profile.php:68
+msgid "Age"
+msgstr ""
+
+#: ../sections/section-profile.php:72
+msgid "Phone"
+msgstr ""
+
+#: ../sections/section-profile.php:76
+msgid "Email"
+msgstr ""
+
+#: ../sections/section-profile.php:80
+msgid "Adress"
+msgstr ""
+
+#: ../sections/section-resume.php:90 ../sections/section-resume.php:139
+msgid "Grade"
+msgstr ""
+
+#: ../sections/section-resume.php:223 ../sections/section-resume.php:275
+msgid "NOW"
+msgstr ""
+
+#: ../single-gen_project.php:42
+msgid "Previous"
+msgstr ""
+
+#: ../single-gen_project.php:56
+msgid "Next"
+msgstr ""
+
+#: ../single-gen_project.php:71
+msgid "Client Testimonial"
+msgstr ""
+
+#: ../single-gen_project.php:87
+msgid "Related Projects"
+msgstr ""

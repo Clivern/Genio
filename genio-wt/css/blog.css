@@ -1,0 +1,659 @@
+/* ========================================= */
+/* $TABLE OF CONTENTS                        */
+/* ========================================= */
+
+/*
+
+	> $BREADCRUMBS SECTION
+	> $MAIN BODY
+
+		+ #MAIN BODY GENERALS
+
+			* @STRIPED SEPARATOR
+			* @POSTS & WIDGETS INNER SPACING
+
+		+ #POSTS
+
+			* @POST TYPO 
+			* @POST PASSWORD FORM 
+			* @TWITTER EMBED 
+			* @NON BREAK WORD 
+			* @PAGINATED POST 
+			* @COMMENTS 
+			* @COMMENT FORM 
+
+		+ #SIDEBAR
+
+			* @SIDEBAR GENERALS
+			* @ABOUT WIDGET
+			* @TWEETS WIDGET
+
+*/
+
+/* ========================================= */
+/* Needed css classes                        */
+/* ========================================= */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	position: absolute !important;
+	width: 1px;
+}
+.wp-caption{}
+.wp-caption-text{}
+.sticky{}
+.gallery-caption{}
+.bypostauthor{}
+.alignleft{}
+.alignright{}
+.aligncenter{}
+
+/**
+ * Jetpack support
+ */
+.infinite-scroll #navigation,
+.infinite-scroll.neverending #footer {
+    display: none;
+}
+.infinity-end.neverending #footer {
+    display: block;
+}
+
+/* ========================================= */
+/* $BREADCRUMBS SECTION                      */
+/* ========================================= */
+
+.breadcrumb-container 
+{
+	border-bottom-width: 1px;
+	border-style: solid;
+	padding: 20px 0;
+}
+
+/* ========================================= */
+/* $MAIN BODY                                 */
+/* ========================================= */
+
+/* #MAIN BODY GENERALS
+/* ========================= */
+
+/* @STRIPED SEPARATOR */
+
+.striped-separated { position: relative; }
+
+.striped-separated::after,
+div:not(.post) + .post::after,
+.post::after,
+.widget::after,
+.comments-list + .comment-respond::after
+{
+	content: ' ';
+	display: block;
+	width: 100%;
+	height: 5px;
+	position: absolute;
+	top: -2px;
+	background: url(../media/images/separator.png) repeat-x;
+	opacity: 0.15;
+}
+
+.post:first-child::after,
+.widget:first-child::after
+{ display: none; }
+
+/* @POSTS & WIDGETS INNER SPACING */
+
+.post:last-of-type,
+.widget:last-of-type { padding-bottom: 0; }
+
+/* #POSTS
+/* ========================= */
+
+@media ( min-width: 992px )
+{
+	.primary-wrapper { padding-right: 50px; }
+}
+
+.post
+{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	position: relative;
+}
+
+.post.sticky > h5::before 
+{
+	content: '\f005';
+	font-family: fontawesome;
+	display: inline-block;
+	margin-right: 10px;
+	opacity: 0.15;
+}
+
+.post > :first-child { padding-top: 0 !important; }
+
+.post:first-of-type { margin-top: -60px; }
+
+	.post__meta span + span { margin-left: 30px; }
+
+	.post__meta .fa { margin-right: 10px; }
+
+/**
+ * @POST TYPO 
+ */
+
+.typeset 
+{
+	padding-top: 0;
+	margin-top: 0;
+	position: relative;
+	line-height: 1.6;
+}
+
+.typeset * { line-height: 1.6; }
+
+.typeset > *:first-child { margin-top: 0 }
+
+.typeset:first-child
+{ margin-top: 0 !important; }
+
+.typeset h1,
+.typeset h2,
+.typeset h3,
+.typeset h4,
+.typeset h5,
+.typeset h6,
+.typeset div,
+.typeset p,
+.typeset blockquote,
+.typeset table,
+.typeset dl,
+.typeset ul,
+.typeset ol,
+.typeset address,
+.typeset figure,
+.typeset img,
+.typeset pre,
+.typeset form,
+.typeset iframe
+{ margin-top: 1.6em; }
+
+.typeset ol,
+.typeset ul
+{
+	list-style-type: none;
+}
+
+.typeset ul ul,
+.typeset ul ol,
+.typeset ol ul,
+.typeset ol ol
+{ 
+	margin-left: 1em;
+	margin-top: 0; 
+}
+
+.typeset ol { counter-reset: item; }
+
+.typeset li 
+{ 
+	padding: 0.2em 0;
+	position: relative;
+	display: table;
+}
+
+.typeset li:before
+{
+	left: 0;
+	display: table-cell;
+	padding-right: 0.8em;
+}
+
+.typeset ul > li:before { content: '•' }
+.typeset ul ul > li:before { content: '○' }
+.typeset ul ul ul > li:before { content: '▪' }
+
+.typeset ol > li:before 
+{
+	content: counter(item) ". ";   
+	counter-increment: item; 
+}
+
+.typeset blockquote p { margin-top: 0 }
+
+.typeset pre { padding: 1em; }
+
+.typeset dd { padding: 0 1em; }
+
+.typeset blockquote
+{
+	padding: 1em 2em;
+}
+
+.typeset table { width: 100% }
+
+.typeset table th, 
+.typeset table td 
+{
+	padding: 0.7em 1.4em;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.typeset .alignleft
+{ 
+	float: left; 
+	margin-right: 1.5em;
+	margin-bottom: 1.5em;
+}      
+
+.typeset .alignright
+{ 
+	float: right;
+	margin-left: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.typeset .aligncenter
+{ 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.typeset .alignnone { float: none; }
+
+.typeset img
+{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.typeset figure { width: 100% !important }
+
+	.typeset img { margin-top: 0 }
+
+	.typeset figcaption
+	{
+		margin-top: 0.8em;
+	}
+
+/** 
+ * @POST PASSWORD FORM 
+ */
+
+.post-password-form p { margin-top: 1.06em; }
+
+.post-password-form p:first-child { margin-top: 0; }
+
+	.post-password-form input 
+	{
+		display: inline-block;
+		padding-top: 0.8em; 
+		padding-bottom: 0.8em;
+		vertical-align: middle;
+		-webkit-transition: all 0.35s ease-in-out;
+		        transition: all 0.35s ease-in-out;
+	}
+
+	.post-password-form label input
+	{
+		padding-left: 0.8em;
+		padding-right: 0.8em;
+		margin-left: 10px;
+		border-width: 1px;
+		border-style: solid;
+		min-width: 220px;
+	}
+
+	.post-password-form input[type="submit"] 
+	{
+		-webkit-border-radius: 2px;
+		        border-radius: 2px;
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+		margin-left: 10px;
+	}
+
+
+/** 
+ * @TWITTER EMBED 
+ */
+
+iframe.twitter-tweet
+{
+	margin-top: 1.6em !important;
+	width: 100% !important;
+	border-width: 3px !important;
+	border-color: #e5e5e5 !important;
+	max-width: 100% !important;
+	-webkit-border-radius: 0px !important;
+	        border-radius: 0px !important;
+	-webkit-box-shadow: none !important;
+	        box-shadow: none !important;
+}
+
+
+/**
+ * @NON BREAK WORD 
+ */
+
+.post a,
+.post h5,
+.post p
+{ word-break: break-word; }
+
+/**
+ * @PAGINATED POST 
+ */
+
+.page-links { padding-top: .4em; }
+
+/**
+ * @COMMENTS 
+ */
+
+.comments-wrapper::after { display: none; }
+
+.comment-respond { position: relative; }
+
+	.comments-list 
+	{
+		padding-bottom: 20px;
+		overflow: hidden;
+	}
+
+	.comments-list .children
+	{ 
+		padding-left: 90px; 
+		overflow: hidden;
+	}
+
+		.comment 
+		{
+			position: relative;
+			padding-top: 40px;
+			overflow: hidden;
+			border-top-width: 1px;
+			border-style: solid;
+		}
+
+		.comments-wrapper > .comments-list  > .comment:first-child { border-top-width: 0 }
+		.comments-list li + .comments-list .comment:first-child { border-top-width: 0 }
+
+			.comment .user 
+			{
+				width: 60px;
+				height: 60px;
+				-webkit-border-radius: 30px;
+				        border-radius: 30px;
+				overflow: hidden;
+				float: left;
+			}
+
+				.comment .user img
+				{
+					display: block;
+					width: inherit;
+					height: inherit;
+				}
+
+			.comment .message 
+			{
+				overflow: hidden;
+				position: relative;
+				padding-left: 30px;
+				padding-bottom: 40px;
+			}
+
+				.comment-reply-link 
+				{
+					position: absolute;
+					right: 0;
+					top: 0;
+				}
+
+					.comment-reply-link .fa { margin-right: 10px; }
+
+				.comment .info 
+				{
+					display: inline-block;
+					margin-bottom: 20px;			
+				}
+
+					.comment .info span { display: block; }
+
+					.comment .info span + span { margin-top: 0.5em }
+
+/**
+ * @COMMENT FORM 
+ */
+
+.comment-reply-title { font-size: 18px; }
+.comments-list + .comment-respond .comment-reply-title { padding-top: 60px; }
+
+.comment-form { margin-top: 30px; }
+
+	.comment-form > * { margin-top: 1.5em; }
+
+	.comment-form > *:first-child { margin-top: 0; }
+
+	.comment-form input[type="submit"]
+	{
+		-webkit-border-radius: 2px;
+		        border-radius: 2px;
+		padding: 0.8em 1.5em;
+		transition: all 0.35s ease-in-out;
+	}
+
+/* #SIDEBAR
+/* ========================= */
+
+/* @SIDEBAR GENERALS */
+
+.widget 
+{ 
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	word-wrap: break-word;
+}
+
+.widget:first-of-type { margin-top: -40px; }
+
+.widget img 
+{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.widget h6 { margin-bottom: 20px }
+
+.widget li
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	line-height: 1.618;
+	list-style-type: none;
+	position: relative;
+	border-top-width: 1px;
+	border-style: solid;
+}
+
+.widget ul:not(.tweets-list) li { padding-left: 15px }
+
+.widget ul:not(.tweets-list) li:before
+{
+	content: "\f105";
+	display: block;
+	width: 1.4em;
+	position: absolute;
+	top: 15px;
+	left: 0;
+	font-family: 'fontawesome';
+	line-height: 1.6em;
+}
+
+.widget ul li:first-child 
+{ 
+	margin-top: -15px; 
+	border-top-width: 0;
+}
+
+.widget li ul li:first-child
+{
+	margin-top: auto;
+	border-top-width: 1px;
+	border-style: solid;
+}
+
+	.widget li ul 
+	{ 
+		margin-top: 15px;
+		margin-left: 15px; 
+		margin-bottom: -15px;
+	}
+
+.widget button:not(.btn),
+.widget input:not(.btn),
+.widget select,
+.widget textarea {
+	border-width: 1px;
+	border-style: solid;
+	color: inherit;
+	padding: 0.8em;
+	font-family: inherit;
+}
+
+.widget input,
+.widget select,
+.widget textarea,
+.widget label
+{
+	display: block;
+	width: 100%;
+	-webkit-transition: all .35s ease-in-out;
+	transition: all .35s ease-in-out;
+}
+
+.widget label { padding: 0; }
+
+.widget button,
+.widget input[type="button"],
+.widget input[type="reset"],
+.widget input[type="submit"] 
+{
+	display: inline-block;
+	width: auto;
+}
+
+.widget span[class*="-date"]
+{
+	display: block;
+	line-height: 1;
+	margin-top: 5px;
+	font-size: 12px;
+	opacity: 0.7;
+	font-style: italic;
+}
+
+.widget span[class*="-date"] + * { margin-top: 15px; }
+
+.widget div { line-height: 1.6em; }
+
+.widget table 
+{
+	width: 100%;
+}
+
+/* @ABOUT WIDGET - @SEARCH WIDGET */
+.genio_author_box h6,
+.widget_search h6
+{ margin-bottom: 0 }
+
+/* @CALENDAR WIDGET */
+
+.widget_calendar caption,
+.widget_calendar th,
+.widget_calendar td { text-align: center; }
+
+.widget_calendar th,
+.widget_calendar td { padding: 1em; }
+
+.widget_calendar thead,
+.widget_calendar tbody,
+.widget_calendar tfoot
+{
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-style: solid;
+}
+
+.widget_calendar tr 
+{
+	border-bottom-width: 1px;
+	border-style: solid;
+} 
+
+/* @TAGS WIDGET */
+
+.tagcloud a
+{
+	font-size: 14px !important;
+	display: inline-block;
+	padding: 0.6em 1.2em;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.tagcloud
+{
+	margin-top: -6px;
+	margin-left: -2px;
+}
+
+	.tagcloud a
+	{
+		margin-top: 6px;
+		margin-left: 2px;
+	}
+
+/* @ABOUT WIDGET */
+
+.owner-image-wrapper
+{
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	overflow: hidden;
+}
+
+.owner-info-wrapper { padding-left: 30px; }
+
+.owner-socials-wrapper a { padding: 5px; }
+.owner-socials-wrapper a + a { margin-left: 5px; }
+
+/* @TWEETS WIDGET */
+
+.tweets-list li .fa
+{
+	float: left;
+	line-height: 1.618em;
+}
+
+.tweets-list li p 
+{
+	padding-left: 20px;
+	display: block;
+	overflow: hidden;
+}
+
+.twitter-follow-link:hover { text-decoration: underline; }
